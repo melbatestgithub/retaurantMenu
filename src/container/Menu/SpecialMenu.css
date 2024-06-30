@@ -1,0 +1,92 @@
+.app__specialMenu {
+    flex-direction: column;
+    background: var(--color-black);
+}
+
+.app__specialMenu-title {
+    margin-bottom: 2rem;
+    text-align: center;
+}   
+
+.app__specialMenu-menu {
+    width: 100%;
+    margin: 2rem 0;
+
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+   
+}
+.app__specialMenu-menu_heading{
+    font-family: var(--font-base);
+    font-weight: 600;
+    font-size: 45px;
+    line-height: 58.5px;
+    color: var(--color-white);
+}
+.app__specialMenu-menu_wine,.app__specialMenu-menu_cocktails{
+   
+    width: 100%;
+    flex: 1;
+    flex-direction: column;
+}
+.app__specialMenu-menu_img{
+    width: 400px;
+    margin: 0 2rem;
+}
+.app__specialMenu-menu_img img{
+    width: 100%;
+}
+.app__specialMenu_menu_items{
+    display: flex;
+    flex-direction: column;
+    margin: 2rem 0;
+    width: 100%;
+
+}
+@media screen and (max-width:2000px){
+
+}
+@media screen and (max-width:1050px){
+   .app__specialMenu-menu{
+    flex-direction: column;
+    width: 100%;
+   }
+   .app__specialMenu-menu_heading{
+    margin: 1rem 0;
+   }
+   .app__specialMenu_menu_items{
+    width: 100%;
+    display: flex;
+    flex: 1;
+    margin-top: 4rem;
+   }
+   .app__specialMenu-menu_img {
+        width: 70%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .app__specialMenu-menu_img  img{
+        width: 80%
+    } 
+    .app__specialMenu-menu_heading{
+        margin: 4rem 0;
+    }
+}
+@media screen and (max-width:650px){
+    .app__specialMenu-menu_img{
+        width: 100%;
+    }
+    .app__specialMenu-menu_heading{
+        margin: 2rem 0;
+    }
+     .app__specialMenu-menu_img img{
+        width: 80%
+    }
+  .app__specialMenu-title  .headtext__cormorant{
+        font-size: 1.5rem;
+        line-height: 1.6rem;
+    }
+
+}
